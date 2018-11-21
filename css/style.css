@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+html, body {
+    position: relative;
+    margin: 0; 
+    font-family: 'EBGaramond-SemiBold', sans-serif;
+    font-size: 20px;
+    color: #2d3845;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+    background: white;
+    height: 80px;
+    text-transform: uppercase;
+    font-family: Alegreya;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0px -2px 8px 0px;
+}
+
+.header ul {
+    margin: 0;
+}
+
+.header ul li {
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.header ul li:hover{
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 80px;
+    margin: 0 35px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+    line-height: 80px;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu:nth-child(2) {
+    position: absolute;
+    right: 0px;
+}
+
+.footer {
+    padding-bottom: 25px;
+    position: fixed;
+    bottom: 0px;
+    background: orange;
+    text-align: center;
+}
+
+.footer p {margin : 0;}
+
+.content1 {
+    display: inline-block;
+    height: 300px;
+    background: white;
+    border: 8px whitesmoke solid;
+    text-align: center;
+    background: url("../images/pages/formation.jpg") no-repeat left center / cover!important;
+}
+.content1 h3{
+    position: relative;
+    top: 40%;
+    color: rgba(255, 212, 0, 0.8);
+}
+
+.content2{
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+}
+
+.descri {
+    font-style: italic;
+    font-size: 0.8em;
+    text-indent: 50px;
+    margin: 0;
+}
+
+    /* tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+@media only screen and (min-width: 768px) {
+
+
+.contentImg, .content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+    /* PC */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
